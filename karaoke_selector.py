@@ -1,4 +1,11 @@
 import random
+from dataclasses import dataclass
+
+@dataclass
+class Song:
+    title: str
+    artist: str
+    duration: str
 
 class Roulette:
     def __init__(self):
